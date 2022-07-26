@@ -125,3 +125,85 @@
 // <span>This blog has ${likes}</span>
 // `
 // console.log(html);
+
+// # Arrays
+
+// let ninjas = ["seyed", "Hello", "Yohooo"];
+
+// ninjas[1] = "ken"
+// console.log(ninjas[1]);
+
+// let ages = [20, 25, 30, 35];
+// console.log(ages[2]);
+
+// let random = ["shaun", "crystal", 20, 30];
+// console.log(random);
+
+// console.log(ninjas.length);
+
+// Array methods
+
+// let result = ninjas.join(", ")
+// let result = ninjas.indexOf("Yohooo")
+// let result = ninjas.concat(["ken", "crystal"]);
+// let result = ninjas.push("ken");
+// result = ninjas.pop();
+
+// console.log(ninjas);
+
+// # Null & Undefined
+
+// let age = null;
+
+// console.log(age, age + 3, `the age is ${age}`);
+
+// # Booleans& Comparisons
+
+// booleans & comparisons
+// console.log(true, false, "true", "false");
+
+// methods can return booleans
+// let email = "mohammadhosseinasadi@gmail.com";
+// let names = ["mario", "luigi", "toad"];
+
+// let result = email.includes("!")
+// let result = names.includes("bowser")
+
+// console.log(result);
+
+// comparison operators
+// let age = 25;
+
+// console.log(age == 25);
+// console.log(age == 30);
+// console.log(age != 30);
+// console.log(age > 20);
+// console.log(age < 20);
+// console.log(age <= 25);
+// console.log(age >= 25);
+
+// let name = "shaun";
+
+// console.log(name == "shaun");
+// console.log(name == "Shaun");
+// console.log(name > "crystal");
+// console.log(name > "Shaun");
+// console.log(name > "Crystal");
+
+// # Loose vs Strict Comparison
+
+// let age = 25;
+
+// Loose comparison (diffrent types can still be equal)
+
+// console.log(age == 25);
+// console.log(age == "25");
+// console.log(age != 25);
+// console.log(age != "25");
+
+// strict comparison (diffrent types cannot be equal)
+
+// console.log(age === 25);
+// console.log(age === "25");
+// console.log(age !== 25);
+// console.log(age !== "25");
