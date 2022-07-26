@@ -31,8 +31,19 @@ console.log(fullName);
 
 // getting characters
 
-console.log(fullName[0]);
+console.log(fullName[2]);
 
 // string length
 
+console.log(fullName.length);
+
 // string methods
+
+console.log(fullName.toUpperCase());
+let result = fullName.toLowerCase()
+console.log(result,fullName);
+
+let index = email.indexOf("@")
+let char = email.charAt(22)
+
+console.log("Index: ",index,"CharAt: ",char);
