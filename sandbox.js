@@ -66,8 +66,8 @@
 
 // # Numbers
 
-let radius = 10;
-const pi = 3.14;
+// let radius = 10;
+// const pi = 3.14;
 
 // console.log(radius, pi);
 
@@ -83,7 +83,7 @@ const pi = 3.14;
 
 // console.log(result);
 
-let likes = 10;
+// let likes = 10;
 
 // likes = likes + 1;
 // likes++;
@@ -103,3 +103,25 @@ let likes = 10;
 
 // let result = "the blog has " + likes + " likes";
 // console.log(result);
+
+// # Template strings
+
+// const title = "Best reads of 2022";
+// const author = "Mario";
+// const likes = 30;
+
+// concatenation way
+// let result = "The clog called " + title + " by " + author + " has " + likes + " likes"
+
+// console.log(result);
+// template string way
+// let result = `The blog called ${title} by ${author} has ${likes} likes`;
+// console.log(result);
+
+// // creating html templates
+// let html = `
+// <h2>${title}</h2>
+// <p>By ${author}</p>
+// <span>This blog has ${likes}</span>
+// `
+// console.log(html);
